@@ -1,10 +1,13 @@
 # AI in Healthcare Homework 4 dependencies, for Mac ARM computers
 I had a difficult time trying to install [SciSpacy](https://allenai.github.io/scispacy/) 
-on my Mac M1 ARM computer. I finally got it working by building [NMSlib](https://github.com/nmslib/nmslib) from source first. Then I fought for a while to install SciSpacy 
-and compatible models. I don't think anyone else should have to do that again. So... here's what I did, with instructions so that things should go more smoothly for you.
+on my Mac M1 ARM computer. I finally got it working by building [NMSlib](https://github.com/nmslib/nmslib) 
+from source first. Then I fought for a while to install SciSpacy 
+and compatible models. I don't think anyone else should have to do that again. 
+So... here's what I did, with instructions so that things should go more smoothly for you.
 Let me know if you run into problems. 
 
-Note that this **WILL NOT** work on anything besides an Arm Mac running MacOS and Python 3.12. For that... good luck. 
+Note that this **WILL NOT** work on anything besides an Arm Mac running MacOS 
+and Python 3.12. For that... good luck. 
 
 Write to me at jonese@utexas.edu if you have questions.
 
@@ -15,7 +18,8 @@ Evan
 
 ## Installation
 1. Install [`uv`](https://astral.sh/uv/), which is a Python package manager. 
-   Really you should [read about](https://docs.astral.sh/uv/getting-started/) it first, but you'll end up doing this:
+   Really you should [read about](https://docs.astral.sh/uv/getting-started/) 
+   it first, but you'll end up doing this:
 
    `curl -LsSf https://astral.sh/uv/install.sh | sh`
 2. Clone this project: 
