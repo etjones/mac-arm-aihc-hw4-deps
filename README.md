@@ -5,9 +5,11 @@ and compatible models. I don't think anyone else should have to do that again. S
 Let me know if you run into problems. 
 
 Note that this **WILL NOT** work on anything besides an Arm Mac running MacOS and Python 3.12. For that... good luck. 
+
 Write to me at jonese@utexas.edu if you have questions.
 
 Cheers,
+
 Evan
 
 
@@ -32,13 +34,15 @@ Evan
 7. Profit
 
 ### All steps together
+Assuming you've already installed `uv`, you can do this all at once:
 ```
-git clone https://github.com/etjones/aihc_hw4_mac_arm_deps.git
-cd aihc_hw4_mac_arm_deps
+git clone https://github.com/etjones/mac-arm-aihc-hw4-deps.git
+cd mac-arm-aihc-hw4-deps
 uv venv --python 3.12
 source ./.venv/bin/activate
 uv sync
-# Verify it's working
-python -c "import spacy; nlp = spacy.load('en_core_web_sm'); print(nlp)"
+# Verify it's working. After warnings, you should see something like:
+# <spacy.lang.en.English object at 0x11a8c9ee0>
+python -c "import en_core_sci_md; nlp = en_core_sci_md.load(); print(nlp)"
 ```
 
