@@ -1,7 +1,7 @@
 [project]
-name = "mac-arm-aihc-hw4"
+name = "mac-arm-aihc-hw4-deps"
 version = "0.1.0"
-description = "Dependencies for Mac ARM CPU for use in the UT MSAI Spring 2025 AI in Healthcare class, Homework 4"
+description = "Dependencies for Mac ARM CPU for use in the UT MSAI Spring 2025 'AI in Healthcare' class, Homework 4"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

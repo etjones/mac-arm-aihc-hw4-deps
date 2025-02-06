@@ -33,8 +33,8 @@ Evan
 
 ### All steps together
 ```
-git clone https://github.com/etjones/aihc_hw4_mac_arm.git
-cd aihc_hw4_mac_arm
+git clone https://github.com/etjones/aihc_hw4_mac_arm_deps.git
+cd aihc_hw4_mac_arm_deps
 uv venv --python 3.12
 source ./.venv/bin/activate
 uv sync
