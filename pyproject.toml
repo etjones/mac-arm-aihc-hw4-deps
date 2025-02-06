@@ -20,6 +20,7 @@ dependencies = [
     "scispacy>=0.5.5",
     "setuptools>=75.8.0",
     "spacy>=3.7.5",
+    "sqlite-utils>=3.38",
     "wheel>=0.45.1",
 ]
 
