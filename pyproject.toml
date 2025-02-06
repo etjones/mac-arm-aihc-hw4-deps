@@ -1,0 +1,34 @@
+[project]
+name = "mac-arm-aihc-hw4"
+version = "0.1.0"
+description = "Dependencies for Mac ARM CPU for use in the UT MSAI Spring 2025 AI in Healthcare class, Homework 4"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "en-core-sci-lg",
+    "en-core-sci-md",
+    "en-core-web-sm",
+    "en-ner-bc5cdr-md",
+    "en-ner-bionlp13cg-md",
+    "en-ner-craft-md",
+    "en-ner-jnlpba-md",
+    "ipython>=8.32.0",
+    "jupyter>=1.1.1",
+    "nmslib",
+    "numpy==1.26.0",
+    "pip>=25.0",
+    "scispacy>=0.5.5",
+    "setuptools>=75.8.0",
+    "spacy>=3.7.5",
+    "wheel>=0.45.1",
+]
+
+[tool.uv.sources]
+nmslib = { path = "./nmslib-2.1.2-cp312-cp312-macosx_15_0_arm64.whl" }
+en-core-sci-md = { url = "https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_md-0.5.4.tar.gz" }
+en-core-sci-lg = { url = "https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_lg-0.5.4.tar.gz" }
+en-ner-craft-md = { url = "https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_craft_md-0.5.4.tar.gz" }
+en-ner-jnlpba-md = { url = "https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_jnlpba_md-0.5.4.tar.gz" }
+en-ner-bc5cdr-md = { url = "https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz" }
+en-ner-bionlp13cg-md = { url = "https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bionlp13cg_md-0.5.4.tar.gz" }
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl" }
