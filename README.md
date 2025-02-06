@@ -9,7 +9,7 @@ Let me know if you run into problems.
 Note that this **WILL NOT** work on anything besides an Arm Mac running MacOS 
 and Python 3.12. For that... good luck. 
 
-Write to me at jonese@utexas.edu if you have questions.
+Write to me at evan_jones@utexas.edu if you have questions.
 
 Cheers,
 
@@ -24,7 +24,7 @@ Evan
    `curl -LsSf https://astral.sh/uv/install.sh | sh`
 2. Clone this project: 
    
-   `git clone https://github.com/etjones/aihc_hw4_mac_arm.git`
+   `git clone https://github.com/etjones/mac-arm-aihc-hw4-deps.git; cd mac-arm-aihc-hw4-deps`
 3. Create a Python 3.12 virtual environment.
    
    `uv venv --python 3.12`
